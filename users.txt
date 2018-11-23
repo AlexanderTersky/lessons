@@ -1,0 +1,19 @@
+DROP TABLE `users`;
+
+CREATE TABLE `users` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `name` varchar(255) default NULL,
+  `age` mediumint default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `users` (`name`,`age`) VALUES ("Lani",27),("Richard",41),("Kieran",27),("Nicholas",35),("Carolyn",32),("Channing",24),("Melyssa",22),("Shelley",40),("Bruno",27),("Olympia",29);
+INSERT INTO `users` (`name`,`age`) VALUES ("Kennedy",31),("Scott",24),("Alexander",25),("Ian",34),("Isadora",33),("Jane",43),("Yoko",30),("Gray",40),("Teagan",33),("Karen",41);
+INSERT INTO `users` (`name`,`age`) VALUES ("Larissa",31),("Karyn",28),("Blair",39),("Quamar",26),("Marny",20),("Stephanie",36),("Felix",25),("Danielle",37),("Whitney",22),("Hu",20);
+INSERT INTO `users` (`name`,`age`) VALUES ("Dawn",41),("Emma",39),("Erasmus",32),("Elaine",26),("Perry",36),("Teagan",37),("Wayne",33),("Akeem",29),("Uma",40),("Berk",40);
+INSERT INTO `users` (`name`,`age`) VALUES ("Martha",41),("Urielle",37),("Imelda",42),("Kadeem",31),("Hunter",36),("Austin",35),("Isabella",22),("Hollee",21),("Gray",44),("Britanni",36);
+INSERT INTO `users` (`name`,`age`) VALUES ("Myra",35),("Emmanuel",42),("Mechelle",25),("Rachel",36),("Jackson",38),("McKenzie",43),("Kathleen",26),("Adele",27),("Boris",36),("Marshall",22);
+INSERT INTO `users` (`name`,`age`) VALUES ("Jasper",30),("Lillith",28),("Mary",30),("Lois",32),("Vaughan",21),("Iris",44),("Quemby",42),("Hyatt",42),("Arthur",43),("Serena",29);
+INSERT INTO `users` (`name`,`age`) VALUES ("Megan",40),("Walker",42),("Roth",28),("Kylee",38),("Kaseem",41),("Azalia",23),("Kitra",40),("Mona",22),("Kenneth",26),("Oleg",28);
+INSERT INTO `users` (`name`,`age`) VALUES ("Uta",34),("Denise",33),("Hall",25),("Piper",25),("Thor",36),("Anjolie",40),("Quintessa",32),("Shellie",22),("Otto",23),("Omar",38);
+INSERT INTO `users` (`name`,`age`) VALUES ("Indira",44),("Daniel",30),("Hope",20),("Abra",25),("Cade",45),("Bernard",44),("Alec",40),("Edan",37),("Wallace",44),("Unity",43);
